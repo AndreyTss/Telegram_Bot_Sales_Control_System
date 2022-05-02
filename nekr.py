@@ -2,11 +2,11 @@ import json
 import requests
 
 from doc import full_link
+from doc import Internal_Integration_Token
 
 def ChangeCassaStatus():
 
-
-    headers = {"Authorization": "Bearer " + 'secret_kZMZoIdqO5zhl3T5BaeAYdFEwSXq1PngWy6jCV0cPiB',
+    headers = {"Authorization": "Bearer " + Internal_Integration_Token,
                         'Notion-Version': '2021-08-16',
                         'Content-Type': 'application/json'}
 
